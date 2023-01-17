@@ -1,0 +1,1135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".allEras">
+
+    <!--main scrollView-->
+    <ScrollView
+        android:id="@+id/mainscrollV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/text1"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="0dp"
+        android:fadeScrollbars="false"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbarSize="2dp"
+        android:scrollbarThumbVertical="@color/white">
+        <LinearLayout
+            android:id="@+id/mainLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:orientation="vertical">
+
+            <!--category 1 -->
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/category1eras"
+                android:textSize="20dp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/white"/>
+            <!--horizontal 1 scroll view-->
+            <HorizontalScrollView
+                android:id="@+id/scroll1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@id/text1"
+                android:layout_marginTop="10dp"
+                android:fadeScrollbars="false"
+                android:scrollbarAlwaysDrawVerticalTrack="true"
+                android:scrollbarSize="2dp"
+                android:scrollbarThumbVertical="@color/white">
+
+                <LinearLayout
+                    android:id="@+id/layout1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:orientation="horizontal">
+
+                    <!--first era-->
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardViewera1"
+                        android:layout_width="200dp"
+                        android:layout_height="250dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="15dp"
+                        android:elevation="50dp"
+                        android:visibility="visible"
+                        android:contextClickable="true"
+                        app:cardBackgroundColor="@android:color/transparent"
+                        app:cardCornerRadius="50dp"
+                        app:flow_horizontalAlign="center"
+                        app:layout_constraintHorizontal_bias="0.12"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.83">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#EEEAE2"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="180dp"
+                                android:scaleType="centerCrop"
+                                android:src="@mipmap/e1" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dp"
+                                android:fontFamily="sans-serif-black"
+                                android:text="@string/era1"
+                                android:textAlignment="center"
+                                android:textColor="#222020"
+                                android:textSize="15sp" />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <!--2 era-->
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardViewera2"
+                        android:layout_width="200dp"
+                        android:layout_height="250dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="15dp"
+                        android:elevation="50dp"
+                        android:visibility="visible"
+                        android:contextClickable="true"
+                        app:cardBackgroundColor="@android:color/transparent"
+                        app:cardCornerRadius="50dp"
+                        app:flow_horizontalAlign="center"
+                        app:layout_constraintHorizontal_bias="0.12"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.83">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#EEEAE2"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="180dp"
+                                android:scaleType="centerCrop"
+                                android:src="@mipmap/e2" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dp"
+                                android:fontFamily="sans-serif-black"
+                                android:text="@string/era2"
+                                android:textAlignment="center"
+                                android:textColor="#222020"
+                                android:textSize="15sp" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <!--3 era-->
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardViewera3"
+                        android:layout_width="200dp"
+                        android:layout_height="250dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="15dp"
+                        android:elevation="50dp"
+                        android:visibility="visible"
+                        android:contextClickable="true"
+                        app:cardBackgroundColor="@android:color/transparent"
+                        app:cardCornerRadius="50dp"
+                        app:flow_horizontalAlign="center"
+                        app:layout_constraintHorizontal_bias="0.12"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.83">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#EEEAE2"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="180dp"
+                                android:scaleType="centerCrop"
+                                android:src="@mipmap/e3" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dp"
+                                android:fontFamily="sans-serif-black"
+                                android:text="@string/era3"
+                                android:textAlignment="center"
+                                android:textColor="#222020"
+                                android:textSize="15sp" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <!--4 era-->
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardViewera4"
+                        android:layout_width="200dp"
+                        android:layout_height="250dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="15dp"
+                        android:elevation="50dp"
+                        android:visibility="visible"
+                        android:contextClickable="true"
+                        app:cardBackgroundColor="@android:color/transparent"
+                        app:cardCornerRadius="50dp"
+                        app:flow_horizontalAlign="center"
+                        app:layout_constraintHorizontal_bias="0.12"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.83">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#EEEAE2"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="180dp"
+                                android:scaleType="centerCrop"
+                                android:src="@mipmap/e4" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dp"
+                                android:fontFamily="sans-serif-black"
+                                android:text="@string/era4"
+                                android:textAlignment="center"
+                                android:textColor="#222020"
+                                android:textSize="15sp" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <!--5 era-->
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardViewera5"
+                        android:layout_width="200dp"
+                        android:layout_height="250dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="15dp"
+                        android:elevation="50dp"
+                        android:visibility="visible"
+                        android:contextClickable="true"
+                        app:cardBackgroundColor="@android:color/transparent"
+                        app:cardCornerRadius="50dp"
+                        app:flow_horizontalAlign="center"
+                        app:layout_constraintHorizontal_bias="0.12"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.83">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#EEEAE2"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="180dp"
+                                android:scaleType="centerCrop"
+                                android:src="@mipmap/e5" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dp"
+                                android:fontFamily="sans-serif-black"
+                                android:text="@string/era5"
+                                android:textAlignment="center"
+                                android:textColor="#222020"
+                                android:textSize="15sp" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <!--6 era-->
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardViewera6"
+                        android:layout_width="200dp"
+                        android:layout_height="250dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="15dp"
+                        android:elevation="50dp"
+                        android:visibility="visible"
+                        android:contextClickable="true"
+                        app:cardBackgroundColor="@android:color/transparent"
+                        app:cardCornerRadius="50dp"
+                        app:flow_horizontalAlign="center"
+                        app:layout_constraintHorizontal_bias="0.12"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.83">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#EEEAE2"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="180dp"
+                                android:scaleType="centerCrop"
+                                android:src="@mipmap/e6" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dp"
+                                android:fontFamily="sans-serif-black"
+                                android:text="@string/era6"
+                                android:textAlignment="center"
+                                android:textColor="#222020"
+                                android:textSize="15sp" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <!--7 era-->
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardViewera7"
+                        android:layout_width="200dp"
+                        android:layout_height="250dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="15dp"
+                        android:elevation="50dp"
+                        android:visibility="visible"
+                        android:contextClickable="true"
+                        app:cardBackgroundColor="@android:color/transparent"
+                        app:cardCornerRadius="50dp"
+                        app:flow_horizontalAlign="center"
+                        app:layout_constraintHorizontal_bias="0.12"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.83">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#EEEAE2"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="180dp"
+                                android:scaleType="centerCrop"
+                                android:src="@mipmap/e7" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dp"
+                                android:fontFamily="sans-serif-black"
+                                android:text="@string/era7"
+                                android:textAlignment="center"
+                                android:textColor="#222020"
+                                android:textSize="15sp" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <!--8 era-->
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardViewera8"
+                        android:layout_width="200dp"
+                        android:layout_height="250dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="15dp"
+                        android:elevation="50dp"
+                        android:visibility="visible"
+                        android:contextClickable="true"
+                        app:cardBackgroundColor="@android:color/transparent"
+                        app:cardCornerRadius="50dp"
+                        app:flow_horizontalAlign="center"
+                        app:layout_constraintHorizontal_bias="0.12"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.83">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#EEEAE2"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="180dp"
+                                android:scaleType="centerCrop"
+                                android:src="@mipmap/e8" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dp"
+                                android:fontFamily="sans-serif-black"
+                                android:text="@string/era8"
+                                android:textAlignment="center"
+                                android:textColor="#222020"
+                                android:textSize="15sp" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <!--9 era-->
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardViewera9"
+                        android:layout_width="200dp"
+                        android:layout_height="250dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="15dp"
+                        android:elevation="50dp"
+                        android:visibility="visible"
+                        android:contextClickable="true"
+                        app:cardBackgroundColor="@android:color/transparent"
+                        app:cardCornerRadius="50dp"
+                        app:flow_horizontalAlign="center"
+                        app:layout_constraintHorizontal_bias="0.12"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.83">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#EEEAE2"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="180dp"
+                                android:scaleType="centerCrop"
+                                android:src="@mipmap/e9" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dp"
+                                android:fontFamily="sans-serif-black"
+                                android:text="@string/era9"
+                                android:textAlignment="center"
+                                android:textColor="#222020"
+                                android:textSize="15sp" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <!--category 2 -->
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/category2eras"
+                android:textSize="20dp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/white"/>
+            <!--horizontal 2 scroll view-->
+            <HorizontalScrollView
+                android:id="@+id/scroll2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@id/text2"
+                android:layout_marginTop="10dp">
+
+                <LinearLayout
+                    android:id="@+id/layout2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:orientation="horizontal">
+
+                    <!--10th era-->
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardViewera10"
+                        android:layout_width="200dp"
+                        android:layout_height="250dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="15dp"
+                        android:elevation="50dp"
+                        android:visibility="visible"
+                        android:contextClickable="true"
+                        app:cardBackgroundColor="@android:color/transparent"
+                        app:cardCornerRadius="50dp"
+                        app:flow_horizontalAlign="center"
+                        app:layout_constraintHorizontal_bias="0.12"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.83">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#EEEAE2"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="180dp"
+                                android:scaleType="centerCrop"
+                                android:src="@mipmap/e10" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dp"
+                                android:fontFamily="sans-serif-black"
+                                android:text="@string/era10"
+                                android:textAlignment="center"
+                                android:textColor="#222020"
+                                android:textSize="15sp" />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardViewera11"
+                        android:layout_width="200dp"
+                        android:layout_height="250dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="15dp"
+                        android:elevation="50dp"
+                        android:visibility="visible"
+                        android:contextClickable="true"
+                        app:cardBackgroundColor="@android:color/transparent"
+                        app:cardCornerRadius="50dp"
+                        app:flow_horizontalAlign="center"
+                        app:layout_constraintHorizontal_bias="0.12"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.83">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#EEEAE2"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="180dp"
+                                android:scaleType="centerCrop"
+                                android:src="@mipmap/e11" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dp"
+                                android:fontFamily="sans-serif-black"
+                                android:text="@string/era11"
+                                android:textAlignment="center"
+                                android:textColor="#222020"
+                                android:textSize="15sp" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardViewera12"
+                        android:layout_width="200dp"
+                        android:layout_height="250dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="15dp"
+                        android:elevation="50dp"
+                        android:visibility="visible"
+                        android:contextClickable="true"
+                        app:cardBackgroundColor="@android:color/transparent"
+                        app:cardCornerRadius="50dp"
+                        app:flow_horizontalAlign="center"
+                        app:layout_constraintHorizontal_bias="0.12"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.83">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#EEEAE2"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="180dp"
+                                android:scaleType="centerCrop"
+                                android:src="@mipmap/e12" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dp"
+                                android:fontFamily="sans-serif-black"
+                                android:text="@string/era12"
+                                android:textAlignment="center"
+                                android:textColor="#222020"
+                                android:textSize="15sp" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <!--category 3 -->
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/category3eras"
+                android:textSize="20dp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/white"/>
+            <!--horizontal 3 scroll view-->
+            <HorizontalScrollView
+                android:id="@+id/scroll3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@id/text3"
+                android:layout_marginTop="10dp">
+
+                <LinearLayout
+                    android:id="@+id/layout3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:orientation="horizontal">
+
+                    <!--13 era-->
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardViewera13"
+                        android:layout_width="200dp"
+                        android:layout_height="250dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="15dp"
+                        android:elevation="50dp"
+                        android:visibility="visible"
+                        android:contextClickable="true"
+                        app:cardBackgroundColor="@android:color/transparent"
+                        app:cardCornerRadius="50dp"
+                        app:flow_horizontalAlign="center"
+                        app:layout_constraintHorizontal_bias="0.12"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.83">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#EEEAE2"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="180dp"
+                                android:scaleType="centerCrop"
+                                android:src="@mipmap/e13" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dp"
+                                android:fontFamily="sans-serif-black"
+                                android:text="@string/era13"
+                                android:textAlignment="center"
+                                android:textColor="#222020"
+                                android:textSize="15sp" />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardViewera14"
+                        android:layout_width="200dp"
+                        android:layout_height="250dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="15dp"
+                        android:elevation="50dp"
+                        android:visibility="visible"
+                        android:contextClickable="true"
+                        app:cardBackgroundColor="@android:color/transparent"
+                        app:cardCornerRadius="50dp"
+                        app:flow_horizontalAlign="center"
+                        app:layout_constraintHorizontal_bias="0.12"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.83">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#EEEAE2"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="180dp"
+                                android:scaleType="centerCrop"
+                                android:src="@mipmap/e14" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dp"
+                                android:fontFamily="sans-serif-black"
+                                android:text="@string/era14"
+                                android:textAlignment="center"
+                                android:textColor="#222020"
+                                android:textSize="15sp" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardViewera15"
+                        android:layout_width="200dp"
+                        android:layout_height="250dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="15dp"
+                        android:elevation="50dp"
+                        android:visibility="visible"
+                        android:contextClickable="true"
+                        app:cardBackgroundColor="@android:color/transparent"
+                        app:cardCornerRadius="50dp"
+                        app:flow_horizontalAlign="center"
+                        app:layout_constraintHorizontal_bias="0.12"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.83">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#EEEAE2"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="180dp"
+                                android:scaleType="centerCrop"
+                                android:src="@mipmap/e15" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dp"
+                                android:fontFamily="sans-serif-black"
+                                android:text="@string/era15"
+                                android:textAlignment="center"
+                                android:textColor="#222020"
+                                android:textSize="15sp" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardViewera16"
+                        android:layout_width="200dp"
+                        android:layout_height="250dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="15dp"
+                        android:elevation="50dp"
+                        android:visibility="visible"
+                        android:contextClickable="true"
+                        app:cardBackgroundColor="@android:color/transparent"
+                        app:cardCornerRadius="50dp"
+                        app:flow_horizontalAlign="center"
+                        app:layout_constraintHorizontal_bias="0.12"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.83">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#EEEAE2"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="180dp"
+                                android:scaleType="centerCrop"
+                                android:src="@mipmap/e16" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dp"
+                                android:fontFamily="sans-serif-black"
+                                android:text="@string/era16"
+                                android:textAlignment="center"
+                                android:textColor="#222020"
+                                android:textSize="15sp" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardViewera17"
+                        android:layout_width="200dp"
+                        android:layout_height="250dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="15dp"
+                        android:elevation="50dp"
+                        android:visibility="visible"
+                        android:contextClickable="true"
+                        app:cardBackgroundColor="@android:color/transparent"
+                        app:cardCornerRadius="50dp"
+                        app:flow_horizontalAlign="center"
+                        app:layout_constraintHorizontal_bias="0.12"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.83">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#EEEAE2"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="180dp"
+                                android:scaleType="centerCrop"
+                                android:src="@mipmap/e17" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dp"
+                                android:fontFamily="sans-serif-black"
+                                android:text="@string/era17"
+                                android:textAlignment="center"
+                                android:textColor="#222020"
+                                android:textSize="15sp" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardViewera18"
+                        android:layout_width="200dp"
+                        android:layout_height="250dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="15dp"
+                        android:elevation="50dp"
+                        android:visibility="visible"
+                        android:contextClickable="true"
+                        app:cardBackgroundColor="@android:color/transparent"
+                        app:cardCornerRadius="50dp"
+                        app:flow_horizontalAlign="center"
+                        app:layout_constraintHorizontal_bias="0.12"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.83">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#EEEAE2"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="180dp"
+                                android:scaleType="centerCrop"
+                                android:src="@mipmap/e18" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dp"
+                                android:fontFamily="sans-serif-black"
+                                android:text="@string/era18"
+                                android:textAlignment="center"
+                                android:textColor="#222020"
+                                android:textSize="15sp" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardViewera19"
+                        android:layout_width="200dp"
+                        android:layout_height="250dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="15dp"
+                        android:elevation="50dp"
+                        android:visibility="visible"
+                        android:contextClickable="true"
+                        app:cardBackgroundColor="@android:color/transparent"
+                        app:cardCornerRadius="50dp"
+                        app:flow_horizontalAlign="center"
+                        app:layout_constraintHorizontal_bias="0.12"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.83">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#EEEAE2"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="180dp"
+                                android:scaleType="centerCrop"
+                                android:src="@mipmap/e19" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dp"
+                                android:fontFamily="sans-serif-black"
+                                android:text="@string/era19"
+                                android:textAlignment="center"
+                                android:textColor="#222020"
+                                android:textSize="15sp" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardViewera20"
+                        android:layout_width="200dp"
+                        android:layout_height="250dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="15dp"
+                        android:elevation="50dp"
+                        android:visibility="visible"
+                        android:contextClickable="true"
+                        app:cardBackgroundColor="@android:color/transparent"
+                        app:cardCornerRadius="50dp"
+                        app:flow_horizontalAlign="center"
+                        app:layout_constraintHorizontal_bias="0.12"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.83">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#EEEAE2"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="180dp"
+                                android:scaleType="centerCrop"
+                                android:src="@mipmap/e20" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dp"
+                                android:fontFamily="sans-serif-black"
+                                android:text="@string/era20"
+                                android:textAlignment="center"
+                                android:textColor="#222020"
+                                android:textSize="15sp" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardViewera21"
+                        android:layout_width="200dp"
+                        android:layout_height="250dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="15dp"
+                        android:elevation="50dp"
+                        android:visibility="visible"
+                        android:contextClickable="true"
+                        app:cardBackgroundColor="@android:color/transparent"
+                        app:cardCornerRadius="50dp"
+                        app:flow_horizontalAlign="center"
+                        app:layout_constraintHorizontal_bias="0.12"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.83">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#EEEAE2"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="180dp"
+                                android:scaleType="centerCrop"
+                                android:src="@mipmap/e21" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dp"
+                                android:fontFamily="sans-serif-black"
+                                android:text="@string/era21"
+                                android:textAlignment="center"
+                                android:textColor="#222020"
+                                android:textSize="15sp" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <!--category 4 -->
+            <TextView
+                android:id="@+id/text4"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/category4eras"
+                android:textSize="20dp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/white"/>
+            <!--horizontal 4 scroll view-->
+            <HorizontalScrollView
+                android:id="@+id/scroll4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@id/text4"
+                android:layout_marginTop="10dp">
+
+                <LinearLayout
+                    android:id="@+id/layout4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:orientation="horizontal">
+
+                    <!--22th era-->
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardViewera22"
+                        android:layout_width="200dp"
+                        android:layout_height="250dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="15dp"
+                        android:elevation="50dp"
+                        android:visibility="visible"
+                        android:contextClickable="true"
+                        app:cardBackgroundColor="@android:color/transparent"
+                        app:cardCornerRadius="50dp"
+                        app:flow_horizontalAlign="center"
+                        app:layout_constraintHorizontal_bias="0.12"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.83">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#EEEAE2"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="180dp"
+                                android:scaleType="centerCrop"
+                                android:src="@mipmap/e22" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dp"
+                                android:fontFamily="sans-serif-black"
+                                android:text="@string/era22"
+                                android:textAlignment="center"
+                                android:textColor="#222020"
+                                android:textSize="15sp" />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardViewera23"
+                        android:layout_width="200dp"
+                        android:layout_height="250dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="15dp"
+                        android:elevation="50dp"
+                        android:visibility="visible"
+                        android:contextClickable="true"
+                        app:cardBackgroundColor="@android:color/transparent"
+                        app:cardCornerRadius="50dp"
+                        app:flow_horizontalAlign="center"
+                        app:layout_constraintHorizontal_bias="0.12"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.83">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#EEEAE2"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="180dp"
+                                android:scaleType="centerCrop"
+                                android:src="@mipmap/e23" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dp"
+                                android:fontFamily="sans-serif-black"
+                                android:text="@string/era23"
+                                android:textAlignment="center"
+                                android:textColor="#222020"
+                                android:textSize="15sp" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+            </HorizontalScrollView>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

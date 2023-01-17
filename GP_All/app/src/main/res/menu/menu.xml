@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/nav_home"
+        android:title="Home"
+        android:icon="@drawable/ic_home"/>
+
+    <item android:id="@+id/nav_mummies"
+        android:title="Mummies"
+        android:icon="@drawable/ic_mummies"/>
+
+    <item android:id="@+id/nav_ticket"
+        android:title="Ticket"
+        android:icon="@drawable/ic_ticket"/>
+
+    <item android:id="@+id/nav_museum"
+        android:title="Mummies"
+        android:icon="@drawable/ic_museum"/>
+</menu>

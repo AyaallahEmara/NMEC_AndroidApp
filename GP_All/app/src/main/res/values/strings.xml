@@ -1,0 +1,1317 @@
+<resources>
+    <string name="app_name"></string>
+    <string-array name="options">
+        <item name="Egyptian"></item>
+        <item name="Other"></item>
+    </string-array>
+    <string name="title_activity_tabbed">Tabbed</string>
+
+
+    <string name="text1">Virtual</string>
+    <string name="text2">Museum</string>
+    <string name="text3">Guide</string>
+
+    <string name="home_text">Home</string>
+    <string name="mummies_text">Mummies</string>
+    <string name="ticket_text">Ticket</string>
+    <string name="museum_text">Museum</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_open_camera">Open Camera</string>
+    <string name="generateCode_button">Generate Payment Code</string>
+    <string name="playAudioRadioButton">Play Audio</string>
+    <string name="showInformationRadioButton">Show Information</string>
+    <string name="ContactUsText">Contact Us</string>
+    <string name="text1ForVisitingTime"> Saturday : Tuesday From 09:00 Am To 05:00  Pm</string>
+    <string name="text2forVisitingTime">"Friday  09:00 Am To 05:00 Pm , 06:00 Pm To 09:00 Pm "</string>
+    <string name="phoneNumberForMuseum">Tel: 0020227412273</string>
+    <string name="SeqenenreText">Seqenenre</string>
+    <string name="AllErasRadioButton">All Eras</string>
+    <string name="NextButton">Next</string>
+    <string name="DetectexhibitRadioButton">Detect Exhibit</string>
+    <string name="museumInfo">The NMEC is the first of its kind in Egypt and the Arab world. It presents the full range of the richness and diversity of Egyptian civilization throughout the ages, from prehistoric times to the present day by focusing on its continuity and stability as demonstrated by its tangible and intangible heritage. The museum’s exceptional collection includes the royal mummies, which are exhibited in a new interactive display using 21st century cutting-edge technology to go beneath the wrappings and reveal their secrets, in addition to shedding light on the rituals and religious beliefs surrounding mummification in ancient Egypt.</string>
+    <string name="dateOfTicket">Select Visit-Date</string>
+    <string name="NationalityTextView">Nationality:</string>
+    <string name="egyptianTextView">Egyptian</string>
+    <string name="otherNationalityTextview">Other Nationality</string>
+    <string name="DoneButton">Done</string>
+    <string name="ChooseTypeofTicket">Tickets Prices:</string>
+    <string name="type">Type</string>
+    <string name="quantity">Quantity</string>
+    <string name="price">Price</string>
+    <string name="Egyptian_Visitor">Egyptian Visitor</string>
+    <string name="EgyptianStudent">Egyptian Student</string>
+    <string name="firstPrice">60 EGP</string>
+    <string name="secondPrice">30 EGP</string>
+    <string name="totalPrice">Total Price</string>
+    <string name="ConfirmTicket">Confirm Information</string>
+    <string name="paymentMethodButton">Payment Method</string>
+    <string name="otherNationalit">Other</string>
+    <string name="otheStudent">Student</string>
+    <string name="otherPrice1">200 EGP</string>
+    <string name="otherPrice2">100 EGP</string>
+
+
+    <!--
+    <string-array name="Eras">
+        <item>The Predynastic Period 5500 - 3100 B.C. </item>
+        <item>The Archaic Period 3100 - 2686 B.C.</item>
+        <item>The Old Kingdom 2686 - 2181 B.C.</item>
+        <item>First Intermediate Period 2181 - 2055 B.C.</item>
+        <item>Middle Kingdom 2055 - 1650 B.C.</item>
+        <item>Second Intermediate Period 1650 - 1550 B.C.</item>
+        <item>The New Kingdom Period 1550 - 1069 B.C.</item>
+        <item>Third Intermediate Period 1069 - 747 B.C.</item>
+        <item>Late Period 747 - 332 B.C.</item>
+        <item>Ptolemaic Period 332 - 30 B.C.</item>
+        <item>Roman Period 30 B.C. - 395 A.D.</item>
+        <item>Byzantine Period (Coptic Period) 330 - 641 A.D.</item>
+        <item>Rashidun Caliphate 632 - 661 A.D.</item>
+        <item>The Umayyad Period 661 - 750 A.D.</item>
+        <item>Abbasid Caliphate 750 - 868 A.D.</item>
+        <item>The Tulunid Period 868 - 905 A.D.</item>
+        <item>The Ikhshidid Period 935 - 969 A.D.</item>
+        <item>Fatimid Period 969 - 1171 A.D.</item>
+        <item>Ayyubid Dynasty 1171 - 1250 A.D.</item>
+        <item>The Mamluk in Egypt 1250 - 1517 A.D.</item>
+        <item>The Ottoman Period 1517 - 1805 A.D.</item>
+        <item>Mohamed Ali Dynasty 1805 - 1953 A.D.</item>
+        <item>Egyptian Heritage</item>
+    </string-array>
+
+    -->
+
+    <string name="historicalTimeline">Timeline of Egyptian History</string>
+    <string name="category1eras">Ancient Egyptian Period</string>
+    <string name="category2eras">Graeco-Roman Period</string>
+    <string name="category3eras">Islamic Period</string>
+    <string name="category4eras">Modern Era</string>
+
+    <string name="era1">Predynastic Period "\n" 5500-3100 B.C.</string>
+    <string name="era2">Early Dynastic Period "\n" 3100-2686 B.C.</string>
+    <string name="era3">Old Kingdom "\n" 2686-2181 B.C.</string>
+    <string name="era4">First Intermediate Period "\n" 2181-2055 B.C.</string>
+    <string name="era5">Middle Kingdom "\n" 2055-1650 B.C.</string>
+    <string name="era6">Second Intermediate Period "\n" 1650-1550 B.C.</string>
+    <string name="era7">New Kingdom "\n" 1550-1069 B.C.</string>
+    <string name="era8">Third Intermediate Period "\n" 1069-747 B.C.</string>
+    <string name="era9">Late Period "\n" 747-332 B.C.</string>
+    <string name="era10">Ptolemaic Period "\n" 332-30 B.C.</string>
+    <string name="era11">Roman Period "\n" 30 B.C-395 A.D.</string>
+    <string name="era12">Byzantine Era "\n" 330-641 A.D.</string>
+    <string name="era13">Rashidun Caliphate "\n" 11-40 A.H./632-661 A.D.</string>
+    <string name="era14">Umayyad Caliphate "\n" 41-132 A.H./661-750 A.D.</string>
+    <string name="era15">Abbasid Caliphate "\n" 133-923 A.H./750-868 A.D.</string>
+    <string name="era16">Tulunid Dynasty "\n" 254-292 A.H./868-905 A.D.</string>
+    <string name="era17">Ikhshidid Dynasty "\n" 323-358 A.H./935-969 A.D.</string>
+    <string name="era18">Fatimids Dynasty "\n" 358-567 A.H./969-1171 A.D.</string>
+    <string name="era19">The Ayyubid Dynasty "\n" 567-648 A.H./1171-1250 A.D.</string>
+    <string name="era20">The Mamluks Dynasty "\n" 648-922 A.H./1250-1517 A.D.</string>
+    <string name="era21">Ottoman Period "\n" 923-1220 A.H./1517-1805 A.D.</string>
+    <string name="era22">Muhammad "'"Ali Dynasty "\n" 1220-1372 A.H./1805-1953 A.D.</string>
+    <string name="era23">Republic"\n"1952-Present</string>
+
+    <string name="infoEra1">
+        The Predynastic Period 3100 B.C - 5500 B.C
+        "\n"
+This represents a long and extended period in ancient
+Egyptian history, starting from Paleolithic times until the
+end of the Neolithic Period. This refers to the phase
+before the emergence of writing in Egypt, which appears
+at the end of the Neolithic period at c. 3100 BC. During
+this period, many cultural groups appeared along the Nile
+Valley (Bhutto, Maadi, Maramadah, Badari, Fayoum, and
+Naqada I, II, and III. These cultural groups were named
+after their site of origin. We have obtained a significant
+amount of information about this period via excavations
+at cemeteries, and discoveries of statues and stone tools.
+        "\n"
+    </string>
+
+    <string name="infoEra2">
+Early Dynastic Period 3100 - 2686 В.C.
+        "\n"
+The Archaic Period
+The First and Second Dynasties This period
+encompasses the First and Second Dynasties, and it is
+known as the beginning of recorded history."\n" The
+commencement of this period followed the unification
+between northern and southern Egypt at the beginning of
+the First Dynasty when Egypt became a unified state with
+Memphis as its capital. "\n" King Narmer and King Khaa
+Sakhomy are the most famous Kings in this period, and
+the most famous places that include the ruins of this
+period are the cemeteries of Helwan, Saqqara, Atfih and
+Abydos.
+"\n"
+</string>
+
+    <string name="infoEra3">
+ Old Kingdom 2686 - 2181 В. С.
+        "\n"
+The old Kingdom (pyramids builders period) due to the
+pyramids built by the kings of this period, the old Kingdom
+extends from the Third Dynasty to the Sixth Dynasty and
+the beginning was with King Djoser, where the first stone
+pyramid was built by the architect Imhotep, and after him,
+the engineers of King Senefru (the fourth family) carried
+out several experiments until they build the first complete
+pyramid in Dahshur (the Red Pyramid), then followed by
+the famous Giza pyramids and the Great Sphinx statue."\n"
+As was distinguished by architecture the art in the Old
+Kingdom, had a great share, statues of kings, private
+statues, and tomb inscriptions dating back to that period
+"\n"
+    </string>
+
+    <string name="infoEra4">
+  First Intermediate Period  2181-2055 В. С. "\n"
+    The first Intermediate, the name was given by
+    Egyptologists to the period between the Old Kingdom and
+    the Middle Kingdom (2055: 2181 BC). "\n" This is the period
+    during which political disintegration and social
+    disintegration prevailed, and the country returned to the
+    division and decentralization it was before the unity, as a
+    result of the weakness of the kings of the Sixth Dynasty
+    and the increase in the influence and power of the
+    provincial rulers, which led to the occurrence of civil wars
+    and a decline in the political and economic conditions. At
+    the end of the Period, Egypt was ruled by the ninth and
+    tenth dynasties, based in Herakleopolis (present-day
+    Ihnasia al-Madina)."\n" But they were not strong enough to
+    hold on and control; until a new dynasty arose in Thebes
+    (Luxor), under the rule of a new king, who reunited the
+    country once again, namely, King Mentuhotep Nebhepetre
+    Ra from the eleventh dynasty.
+    "\n"
+    </string>
+
+    <string name="infoEra5">
+Middle Kingdom 2055-1650 В. C.
+"\n"
+One of the most brilliant periods of Ancient Egypt, which
+began with the Eleventh Dynasty until the Thirteenth
+Dynasty, and its beginning was with the success of the
+king (Mentuhotep Nebheptre Ra) in unifying the country
+after the anarchy state, which was known as the first
+intermediate period."\n" The beginning of the Eleventh
+Dynasty was from Thebes (Luxor)."\n" Then the kings of the
+Twelfth Dynasty moved the capital to the Light north of
+Fayoum. The Middle Kingdom contributed to various
+aspects of ancient Egyptian civilization, as it established
+the authority of the central government, its kings sent
+mining missions and encouraged trade trips."\n" And they
+carried out huge agricultural projects in the Fayoum in
+middle Egypt."\n" The Middle Kingdom contributed greatly to
+ancient Egyptian language and literature.
+"\n"
+    </string>
+
+    <string name="infoEra6">
+Second Intermediate Period 1650-1550 В.C.
+        "\n"
+The Second Intermediate, the name was given by
+Egyptologists to the period between the Middle Kingdom
+and the modern state (1550: 1650 BC)."\n" During this period
+of weakness, chaos, and ambiguity, the country fell into
+the hands of the Hyksos, as they began to infiltrate from
+the northeast of the country and settled in the northeast
+of the delta, and during the Thirteenth Dynasty the capital
+was moved from It Tawy to the north to Thebes (Luxor) in
+Upper Egypt, then After that, the Hyksos were able to
+penetrate and enter the country during the fifteen dynasty
+founding their capital in Awaris (Tell el- Dab"'"a), and during
+the subsequent period of time, the Egyptians, especially
+during the seventeenth dynasty, strengthened their
+military forces until Ahmose succeeded in retrieving the
+land from the Hyksos and was able to enter Avaris and
+expel the Hyksos from Country."\n"
+    </string>
+
+    <string name="infoEra7">
+        New Kingdom Period 1550-1069  В. С.
+        "\n"
+This era is known as the period of the Egyptian Empire,
+Egypt witnessed during this period a boom in all fields in
+arts and architecture and expanded its borders and
+extended it to the fourth cataract in the south and to the
+Levant in the north. "\n" Its beginning was with the victory of
+King Ahmose over the Hyksos and expelling them from
+Egypt. Among its most famous kings (Thutmose III -
+Hatshepsut - Akhenaten - Tutankhamun - Ramses II), its
+monuments varied between temples (Luxor Temple -
+Karnak Temple - Hatshepsut Temple in Deir al-Bahri), the
+valley of the Kings and valley of the Queens tombs."\n"
+    </string>
+
+    <string name="infoEra8">
+Third Intermediate Period 1069-747  В. C.
+        "\n"
+The name was given by Egyptologists to the period
+between the New kingdom and the late Period (1069: 747
+BC) The Third Intermediate Period was generally known
+as a period of decentralization and weakness."\n" Although
+the reign of these kings who made up the twenty-first
+dynasty (1069: 945 BC) was recognized throughout the
+country, Upper Egypt came under independent rule in the
+hands of the High Priest of Amun in Luxor, at a time when
+the priests of God Amun became they are the highest
+authority in the country."\n"
+    </string>
+
+    <string name="infoEra9">
+Late Period  747-332 В. С.
+        "\n"
+The Late Period is the last of the Egyptian ruling
+dynasties, and it is noted that the country continued in a
+state of disintegration, division and weakness throughout
+the Libyan rule until the end of the twenty-fourth dynasty."\n"
+But the prince (Psamtik), the prince of Sayis, took
+advantage of the opportunity to plunge Assyria into
+conflict with Babylon and was able to expel the Assyrian
+garrison in Egypt, then he returned to Egypt and Subjugate
+the rulers of the provinces, and declared himself king of
+the country in 663 BC, establishing the Twenty-Sixth
+Dynasty, which distinguished as The era of reform and
+renaissance. The Sawi kings faced a new threat from the
+Persian Empire, at the hands of the Persian king
+Cambyses, and the twenty-seventh family was composed
+of Persian rulers, but the Egyptians wanted independence
+and rebelled against Persian rule when they had the
+opportunity. As for the twenty-eighth and twenty-ninth
+dynasties, they witnessed a frequent change of rulers."\n"
+During the Thirtieth Dynasty, although it was relatively
+strong, at the end of its reign, it was unable to withstand
+the second Persian invasion, and King Nechtenabo II is
+considered the last national king of Egypt."\n"
+    </string>
+
+    <string name="infoEra10">
+Ptolemaic Period 332-30  В. С.
+        "\n"
+Alexander the Great entered Egypt peacefully without
+resistance, and Egypt entered with him a new civilized
+stage. He made a journey to the oasis of Siwa and
+declared that he was the son of the god Amun, then he
+ordered the construction of the city of Alexandria, and
+after Alexander"s death his general Ptolemy I (the Savior)
+founds the Ptolemaic Dynasty in Egypt and declared
+himself King and Alexandria as the capital. "\n" The Ptolemies
+adopt Egyptian royal traditions and have themselves
+portrayed on public monuments in Egyptian style the
+Hellenistic style was manifested in monuments and
+architecture as the Alexandria library and the Alexandria
+lighthouse and despite the turmoil in the country, this
+culture continued for several centuries until the death of
+Queen Cleopatra VII in 30 BC."\n"
+    </string>
+
+    <string name="infoEra11">
+        Roman Period 30 B.C-395 A.D.
+      "\n"
+After Octavian (the future emperor Augustus) defeats
+Mark Antony and Cleopatra in the battle of Actium, Egypt
+became a province of Rome."\n" The wealthiest of the
+provinces, Egypt has soon denominated the breadbasket
+of the empire"'" for providing Rome"'"s supply of grain."\n"
+Alexandria, with its library and its community of writers,
+philosophers, and scientists, gains fame as a great city."\n"
+Egypt"'"s ancient culture and its religion inspired the world
+during this period even the worship of the goddess Isis,
+which spread throughout the Roman capital."\n"
+    </string>
+
+    <string name="infoEra12">
+Byzantine Era 330-641 A.D.
+        "\n"
+The late period of Roman rule in Egypt Known as (the
+Byzantine or Coptic period) began from the reign of the
+Roman Emperor Diocletian in 284 AD until the Arabs
+entered Egypt in 641 AD."\n"Egyptian Christians suffered
+from the intensity of persecutions during the reign of
+Emperor Diocletian. The Copts began their calendar
+(calendar of martyrs) from the year Diocletian"'"s accession
+to the throne, although his persecution of them did not
+begin until the year 303 AD."\n" In the year 313 AD, Emperor
+Constantine I, who ruled the Western Roman Empire,
+issued the Edict of Milan, in which he equated Christianity
+with the rest of the religions."\n" And after the defeat of
+Licinius, ruler of the Eastern Roman Empire at the hands
+of Constantine I, in 324 AD."\n" Constantine, I became the
+only emperor of the Roman Empire and transferred the
+headquarters to the new capital, Constantinople in 330
+ADS, after its foundation. He converted to Christianity a
+year before his death and so he is considered the first
+Roman emperor to convert to Christianity.
+        "\n"
+    </string>
+
+    <string name="infoEra13">
+Rashidun Caliphate 11-40 A.H./632-661 A.D.
+        "\n"
+This era was named after the four adult caliphs, and
+during this period Egypt was conquered by the leader Amr
+Ibn Al-Aas, who built a new capital for the country, the city
+of Fustat, on whose ruins the city of Cairo was
+established 300 years after that to remain the capital of
+Egypt. "\n" And he established the first great mosque in Egypt
+in the year 21 A. H.
+        "\n"
+    </string>
+
+    <string name="infoEra14">
+Umayyad Caliphate 41-132 A.H./661-750 A.D.
+        "\n"
+        Egypt was one of the states belonging to the Umayyad
+Caliphate that was founded by Muawiya bin Abi Sufyan
+Twenty-five wali (ruler) ruled Egypt during that period, the
+first was Amr ibn al-Aas and the last one was Abd al-
+Malik bin Marwan.   "\n" The Arabic language became the
+official language in all affairs of the state instead of the
+Coptic language after the ruler, Abdullah bin Abd al-Malik,
+issued a decision in the year 706 CE, during this period
+Egypt became the main base for the moving of the
+Islamic armies towards Africa and then Andalusia.
+        "\n"
+    </string>
+
+    <string name="infoEra15">
+Abbasid Caliphate 133-923 A.H./750-868 A.D.
+        "\n"
+        The Abbasid state is attributed to al-Abbas bin Abd al-
+Muttalib, and it is the third Islamic caliphate in history,
+founded by Abdullah bin Muhammad, or as it is called
+(Abu al-Abbas al-Saffah) due to the abundance of blood
+that was shed during his reign and the Abbasid caliphate
+is divided into two important periods, the first is the
+period of prosperity between the years ( 750-1258 AD),
+which was known as the Golden Age of Islam, but soon
+ended when the Mongols took the capital Baghdad from
+the Abbasids and fled to Egypt and the second phase
+began between (1261 - 1517 AD) and Cairo as their
+capital in that period.
+        "\n"
+    </string>
+
+    <string name="infoEra16">
+Tulunid Dynasty 254-292 A.H./868-905 A.D.
+        "\n"
+Ahmad Ibn Tulun established the Tulunid state in Egypt,
+which later extended towards the Levant, to be the first
+politically separated state from the Abbasid state to rule
+Egypt and the Levant. Ibn Tulun, after his political
+independence, did not think about religious separation
+from the caliphate, because in his view and in the eyes of
+the public, the caliphate represented the continuation of
+the Islamic unity. Ahmad Ibn Tulun undertook many
+economic and cultural reforms, and was the first to
+establish a new administrative capital for his state north
+of Fustat in the year (256 AH = 870 AD) known as Al-
+qata"'"e Ahmad Ibn Tulun built his mosque, and the rule of
+the Tulunids lasted about thirty-five years, and after that
+came the Ikhshidids.
+        "\n"
+    </string>
+
+    <string name="infoEra17">
+Ikhshidid Dynasty 323-358 A.H./935-969 A.D.
+        "\n"
+The Ikhshidid Period
+Ikhshidid state It is an Islamic emirate founded by
+Muhammad ibn Tughj al-Ikhshid in Egypt and extended to
+the Levant and Hijaz, after the Abbasid Caliph Al-Radi was
+appointed him to the state of Egypt and gave him with
+the title of Al- Ikhshid. The economic situation flourished,
+such as industry, commerce and agriculture in this period.
+
+        "\n"
+    </string>
+
+    <string name="infoEra18">
+Fatimids Dynasty 358-567 A.H./969-1171 A.D.
+         "\n"
+In 969 A. D. the leader Jawhar al-Saqli entered Egypt, by
+order of the fourth Fatimid caliph al-Mu"'"izz Li Din Allah,
+Cairo the capital of the country was established with the
+Al-Azhar Mosque, and his minister, Badr al-Jamali, was
+assigned to build a large wall with huge gates
+surrounding the capital. Egypt in this period became a
+civilized radiation center for the Islamic world, and both
+Fustat and Faiyum had a distinguished position in the
+production of pottery with metallic luster stamped with
+signatures of craftsmen. Other industries flourished, such
+as crystal, metals, wood, and style weaving.
+         "\n"
+    </string>
+
+    <string name="infoEra19">
+The Ayyubid Dynasty 567-648 A.H./1171-1250 A.D.
+        "\n"
+        The Ayyubid state was established in Egypt during the
+reign of Salah al-Din al-Ayyubi, who ended the Fatimid
+Shi’ite sect and restored the Sunni doctrine in Egypt and
+the Levant. Egypt reached the height of its prosperity in
+the war field, and an army Diwan was established in
+Egypt, as well as its commercial relations with Genoa,
+Venice and Pisa flourished After the death of Salah al-Din,
+the Ayyubid state weakened due to the differences that
+appeared between the rulers and also because of the
+Crusades (the campaign of Louis IX). "\n" The end of the state
+came after the death of the king Al-Salih Ayyub, when his
+wife Shajar al-Durr conspired with Mamluk Bahri to the
+killing of his son Turan Shah, the last king of the Ayyubids.
+        "\n"
+    </string>
+
+    <string name="infoEra20">
+The Mamluks Dynasty 648-922 A.H./1250-1517 A.D.
+        "\n"
+        The Mamluk period began in Egypt after the death of the
+Ayyubid Sultan in 1250 AD. Their state was known as the
+Mamelukes, in reference to the word Mamluk, which
+means slave in Arabic, because they were slaves, most of
+them came from Turkish or Caucasian origins. The
+Mamluk Sultans in Egypt are two successive teams, the
+Mamluk Sultans, Bahri, and Mamluk Sultans (Circassian)."\n"
+The state of the Mamluks was known for the large
+number of sultans who ruled it and the short period of
+their rule, and it witnessed many coups and military
+upheavals."\n" However, they built many mosques and
+schools of the four sects, and they also defeated the
+attacks of the Mongols. During their reign, Egypt
+flourished in architecture and arts, especially enameled
+and gilded glass, inlaid metalwork woodwork, and textiles.
+        "\n"
+    </string>
+
+    <string name="infoEra21">
+Ottoman Period 923-1220 A.H./1517-1805 A.D.
+        "\n"
+        Egypt became a state-affiliated with the Ottoman rule
+after Sultan Selim the first defeated the Sultan Toman Bay
+the Sultan of Mamluks at the Battle of Ridania in 1517 AD,
+and Egypt remained under the Ottoman rule for a long
+period that lasted about three centuries and was
+interrupted for a period until the beginning of the French
+campaign against Egypt in (1798-1801 AD), then Ottoman
+rule returned again until 1805 AD."\n" This period did not
+witness any political developments in Egypt except for
+conflicts and strife between the Mamluks and the
+Ottoman governors."\n"
+    </string>
+
+    <string name="infoEra22">
+Muhammad "'"Ali Dynasty 1220-1372 A.H./1805-1953 A.D.
+        "\n"
+The modern history of Egypt began with the mandate of
+Muhammad Ali Pasha, the rule of Egypt under the decree
+of the Ottoman caliph in 1805 AD until 1867 AD, then it
+became Khedive from 1867 until 1914 AD, then Sultanate
+from 1914 until 1922, then a kingdom from 1922 until
+1953 AD And the rule of the Alawite family ended with the
+revolution and Egypt turned into a republic, Egypt was a
+strong country during the rule of Muhammad Ali Pasha,
+and therefore he is called the founder of modern Egypt
+because of his prominent and important role in the work
+of reform and development in Egypt, and he has many
+achievements in all aspects of economic, political,
+scientific and military life, as well as the advancement."\n" In
+industry, agriculture and trade, he established many
+factories and used foreign expertise, sent scientific
+missions abroad, developed roads, transportation and
+land and sea transportation, and armed the army and
+fleet. He followed his approach from behind him from his
+sons and grandchildren, and Egypt witnessed during their
+reign a great transformation and development.
+        "\n"
+    </string>
+
+    <string name="infoEra23">
+Republic 1952-Present
+        "\n"
+This era starts from 1953 to the present day. Where President Mohamed Naguib took over Egypt and turned Egypt into a republic.
+        "\n"
+    </string>
+
+    <string name="allEraText">All Eras</string>
+    <string name="detectExhibit">Explore Exhibits by Camera</string>
+    <string name="map_key">map_key</string>
+    <string name="HomeF">Main Hall</string>
+    <string name="MummiesF">Mummies</string>
+    <string name="TicketF">Ticket</string>
+    <string name="MuseumF">Museum</string>
+    <string name="mummiesTitle">Mummies Tour</string>
+    <string name="Seqenen_reTaaII">Seqenenre Taa II</string>
+    <string name="Ahmose_Nefertari">Ahmose_Nefertari</string>
+    <string name="Amenhotep_I">Amenhotep I</string>
+    <string name="Thutmose_I">Thutmose I</string>
+    <string name="Thutmose_II">Thutmose II</string>
+    <string name="Hatshepsutt">Hatshepsut</string>
+    <string name="Thutmose_III">Thutmose III</string>
+    <string name="Amenhotep_II">Amenhotep II</string>
+    <string name="Thutmose_IV">Thutmose IV</string>
+    <string name="Amenhotep_III">Amenhotep III</string>
+    <string name="Seti_I">Seti I</string>
+    <string name="Ramses_II">Ramses II</string>
+    <string name="Merenptah_Baenre">Merenptah Baenre</string>
+    <string name="Seti_II">Seti II</string>
+    <string name="Siptah_Akhenre">Siptah Akhenre</string>
+    <string name="Ramses_III">Ramses III</string>
+    <string name="Ramses_IV">Ramses IV</string>
+    <string name="Ramses_V">Ramses V</string>
+    <string name="Ramses_VI">Ramses VI</string>
+    <string name="Ramses_IX">Ramses IX</string>
+    <string name="learnMore">learn more</string>
+
+    <string name="SeqenenreTaaII">
+        Seqenenre Taa II
+        "\n"
+        (Second Intermediate Period, 17th Dynasy)
+        "\n"
+                One of the most fascinating royal mummies ever found, Seqenenre Taa II was the ruler of Thebes (modern day Luxor) during the late Second Intermediate Period.
+        "\n"
+                When he became king, the Hyksos (foreigners from the northeast) had been ruling the northern part Egypt for over a century, and were threatening Theban territory.
+        "\n"
+                History remembers Seqenenre Taa as the king who began the fight against these invaders; the war was continued by his sons Kamose and Ahmose I.
+        "\n"
+                His principal wife, also his sister, was Ahhotep.
+        "\n"
+                In addition to Kamose and Ahmose , They had at least two daughters, Ahmose- Nefertari and Ahmose Nebetta.
+        "\n"
+                Seqenenre Taa died at about the age of 40, His skull bears the marks of horrific wounds, almost certainly the result of the battle against the Hyksos and clear evidence that he died a violent death.
+        "\n"
+                It is likely that this ruler was originally interred at Dra Abu el-Naga, the northernmost cemetery of the Theban necropolis, where the kings of the 17th Dynasty were buried.
+        "\n"
+        His body was eventually moved to TT 320, where it was found in 1881.
+    "\n"
+    </string>
+
+    <string name="RamsesIII">
+        Ramses III (Usermaatre Meryamun)
+        "\n"
+        (Son of Setnakht and Tiye-Mereniset New Kingdom, 20th Dynasty)
+        "\n"
+After the deaths of Siptah and Tawosret, the last rulers of the 19th Dynasty,
+        "\n"
+        the throne of Egypt passed to a king named Setnakht, whose origins are obscure but who was likely related in some way to the Ramesside royal line.
+        "\n"
+Setnakht himself ruled for only a few years. He was succeeded by his son, Ramses III, who is considered the last of the great "warrior pharaohs" of the New Kingdom.
+        "\n"
+Over the course of a 32-year reign, Ramses III fought a number of notable battles and is remembered as skilled in the art of warfare.
+        "\n"
+The first decade of his reign was marked by battles against the Libyans and the Sea Peoples, a result of turmoil and population upheaval in the Mediterranean world.
+        "\n"
+        His early years were also occupied with stabilizing Egypt"s internal political situation in the wake of the political confusion of the previous reigns. Ramses III built a great mortuary temple at Medinet Habu, where he recorded his military exploits.
+        "\n"
+Records from this reign reveal a difficult economic situation, exacerbated by the expense of the king's wars against invaders.
+        "\n"
+One papyrus details the first recorded labor strike, carried out by the royal artisans at Deir elMedina, who had been denied their wages.
+        "\n"
+        Despite his great victories and accomplishments, Ramses III fell victim to a plot devised by a minor wife, Tiye, to put her son Pentawer on the throne.
+        "\n"
+        Several papyri tell of this "harem conspiracy" to kill the king, which involved various officers, members of the royal harem, and high court officials. It is not clear from the papyri, which record the trials of the conspirators, whether or not the plot succeeded.
+        "\n"
+However, the CT scan carried out by the Egyptian Mummy Project clearly showed that the king's throat had been cut from behind.
+        "\n"
+DNA analysis also confirmed that Unknown Man E (the "screaming mummy," also found in the Deir el- Bahari cache) was a son of Ramses III, and could be Prince Pentawer.
+        "\n"
+        The king was originally buried in KV 11, the abandoned tomb of his father Setnakht; his mummy was restored by the later priests and eventually moved to the Deir el-Bahari cache.
+        "\n"
+    </string>
+
+    <string name="ThutmoseIII">
+    Thutmose III (Menkheperre)
+        "\n"
+        (Son of Thutmose II and Iset I New Kingdom, 18th Dynasty)
+        "\n"
+    Too young to rule at the death of his father, Thutmose III began his reign as monarch in name only.
+        "\n"
+    His stepmother, Hatshepsut, served as his regent for several years, and then declared herself senior pharaoh, relegating the young Thutmose III to the role of junior king.
+        "\n"
+    For the next two decades, the young monarch grew into what would become his eventual role as one of the great warrior pharaohs of the New Kingdom.
+        "\n"
+    It seems likely that Hatshepsut gave him command of Egypt"s armies as one of his duties, as, at her death, he launched a series of military campaigns that solidified Egypt's position as one of the region's superpowers.
+        "\n"
+    Under his sole rule, the empire reached its farthest extent, from the Euphrates in the north to the Fourth Cataract of the Nile in the south.
+        "\n"
+    He successfully asserted Egyptian dominance in the Levant (modern-day Syria-Palestine); his battle at Megiddo, an important city in ancient Palestine, is considered a model of military strategy.
+        "\n"
+    The king, who was keen on leaving his own mark on his expanding empire, was extremely active all over Egypt and Nubia.
+        "\n"
+    Under his guidance, Egypt carried out at least 17 major military expeditions. He also left behind evidence of major building programs, including the "Akh-Menu," a temple in the precinct of Amun-Re at Karnak in which he carved a king list recording the names of his predecessors.
+        "\n"
+    Thutmose III was also known for his interest in the natural world; at Karnak, he commissioned the construction of the "botanical garden", a chamber decorated with images of the exotic flora and fauna he and his troops had encountered in their foreign campaigns.
+    "\n"
+        Including his joint reign with Hatshepsut, he ruled for 54 years over a prosperous and powerful Egypt.
+        "\n"
+    His tomb in the Valley of the Kings,  is remarkable for its decoration, which illustrates the journey of the sun god through the 12 hours of the night in a style that mimics drawing on papyrus. He was originally buried in a cartouche-shaped sarcophagus, which still lies in his burial chamber.
+        "\n"
+        However, like many of the other royal mummies, he was eventually taken to the mummy cache at Deir el-Bahari.
+    "\n"
+    </string>
+    <string name="ThutmoseI">
+        Thutmose I (Aakheperkare)
+        "\n"
+        (Son of Senisep - father unknown New Kingdom, 18th Dynasty)
+        "\n"
+Although he was not a member of the Ahmose id family, Thutmose I became king after Amenhotep I died without an heir.
+        "\n"
+        Probably one of the previous monarch"s generals, he came to the throne around the age of 40 and is thought to have ruled for a little over ten years. His principal wife was Ahmose, whose name suggests that she was a blood relative of the previous line.
+        "\n"
+        Thutmose I and Ahmose were the parents of the future king Hatshepsut.
+        "\n"
+With a non-royal wife, Mutnefret, he fathered his successor, Thutmose II; he also had other sons whose mothers are unidentified.
+        "\n"
+Remembered as a warrior pharaoh, the king's accomplishments included substantial campaigns into Syria and the expansion of Egyptian rule in the south to the Fourth Cataract of the Nile.
+        "\n"
+        His military campaigns, which were recorded in the tombs of several of his officials, opened new opportunities for trade, diplomacy, and economic exploitation with Egypt's neighbors.
+        "\n"
+Thutmose I was also known for his deliberate efforts to associate his reign with the glories of his predecessors, likely in large part to validate his own rule. He carried out an extensive construction program, building at sites as varied as Abydos, Memphis, Armant, el-Hiba, Elephantine, and Edfu. In Thebes, he is credited with adding pylons to the Karnak temple complex and completing an ambulatory begun by Amenhotep I.
+        "\n"
+Thutmose his architect, Ineni, recorded in his own tomb that he had constructed a secret burial place for his king ("none seeing and none hearing"); this tomb has never been identified. It is likely that it was disturbed by robbers, and at some point, his daughter Hatshepsut moved her father's burial to her own tomb, KV 20.
+   "\n"
+    </string>
+
+    <string name="AhmoseNefertari">
+        Ahmose_Nefertari
+        "\n"
+        (Daughter of Seqenenre Taa II and Ahhotep New Kingdom, 18th Dynaasty)
+        "\n"
+ Identified as the daughter of Seqenenre Taa II and his queen Ahhhotep, Ahmose-Nefertari was married to her brother, Ahmose I, the first monarch of the New Kingdom.
+The royal couple bore several children, including the next king, Amenhotep I.
+        "\n"
+ Powerful and influential during her lifetime, she is depicted on many contemporary monuments, including the Donation Stela at Karnak.
+        "\n"
+Her attested titles include "great royal wife," "king's mother, mistress of Upper and Lower Egypt," and "great wife of Amun," this latter placing her high up in the cult of the great state god Amun.
+        "\n"
+She maintained her power during the reign of her son, Amenhotep I, helping to bring about positive
+change to the country after the unstable time of the Second Intermediate Period.
+        "\n"
+She outlived her son, dying during the reign of Thutmose I.
+        "\n"
+In later times, mother and son were venerated as a divinized couple by the Egyptians, especially in the village of Deir el-Medina, home to the artisans responsible for the royal tombs.
+        "\n"
+        Here they were the focus of a dedicated cult, and were considered the "patron saints" of the Theban necropolis.
+"\n"
+    </string>
+
+    <string name="AmenhotepI">
+        Amenhotep I (Djeserkare)
+        "\n"
+        (Son of Ahmos I and Ahmose-Nefertari New Kingdom, 18th Dynasty)
+        "\n"
+The second pharaoh of the 18th Dynasty, Amenhotep I likely ascended the throne after the death of several older brothers.
+        "\n"
+ He may have been a child when he became king and ruled with the assistance of his mother, Ahmose-Nefertari.
+        "\n"
+Most scholars believe that he reigned for about 20 years, although others suggest 30.
+        "\n"
+ According to autobiographical inscriptions in the tombs of contemporary officials, Amenhotep I led campaigns into Nubia and Libya.
+        "\n"
+ He also began or completed a number of building projects, including a temple at Saî in Nubia and an exquisite barque chapel for Amun at Karnak made entirely of Egyptian alabaster.
+        "\n"
+Remembered as a great ruler, he was deified after his death alongside his mother.
+        "\n"
+ Both were venerated for centuries, with their cult especially prominent at Deir el-Medina, the village of the artisans who built the royal tombs in the Valley of the Kings.
+        "\n"
+ Amenhotep I"'"s original tomb is mentioned in the Abbott Papyrus, but its location is still unknown.
+        "\n"
+Some scholars believe that it is located in Dra Abu el-Naga, while others identify it with a small tomb in the Valley of the Kings.
+        "\n"
+More recently, a Polish scholar has suggested that it still lies undiscovered at Deir el-Bahari, near the memorial temple of Hatshepsut
+        "\n"
+</string>
+
+    <string name="Merenptah">
+        Merenptah (Baenre Merinetjeru)
+        "\n"
+        (Son of Ramses II and Isetnofret I New Kingdom, 19th Dynasty)
+        "\n"
+Merenptah was the thirteenth son of Ramses II and his second Great Royal Wife.
+        "\n"
+Due to his father"'"s very long reign, he ascended the throne at a more advanced age, and ruled for only about 11 years.
+        "\n"
+He was an active king, engaging in a number of military campaigns: he held off a coalition of the Libyans and Sea Peoples that attacked Egypt"'"s Delta in his fifth regnal year; and put down a rebellion in Nubia.
+        "\n"
+ One of the most important artifacts of his time, the "Israel Stela" contains the first recorded mention of Israel.
+        "\n"
+KV 8 was Merenptah"'"s original tomb in the Valley of the Kings, but his mummy was then moved at some point into the tomb of Amenhotep II (KV 35).
+        "\n"
+Over the course of a 32-year reign, Ramses III fought a number of notable battles and is remembered as skilled in the art of warfare.
+        "\n"
+The first decade of his reign was marked by battles against the Libyans and the Sea Peoples, a result of turmoil and population upheaval in the Mediterranean world. His early years were also occupied with stabilizing Egypt"s internal political situation in the wake of the political confusion of the previous reigns.
+        "\n"
+        Ramses III built a great mortuary temple at Medinet Habu, where he recorded his military exploits.
+        "\n"
+Records from this reign reveal a difficult economic situation, exacerbated by the expense of the king's wars against invaders.
+        "\n"
+        One papyrus details the first recorded labor strike, carried out by the royal artisans at Deir elMedina, who had been denied their wages.
+        "\n"
+        Despite his great victories and accomplishments, Ramses III fell victim to a plot devised by a minor wife, Tiye, to put her son Pentawer on the throne. Several papyri tell of this "harem conspiracy" to kill the king, which involved various officers, members of the royal harem, and high court officials.
+        "\n"
+        It is not clear from the papyri, which record the trials of the conspirators, whether or not the plot succeeded.
+        "\n"
+However, the CT scan carried out by the Egyptian Mummy Project clearly showed that the king's throat had been cut from behind.
+        "\n"
+ DNA analysis also confirmed that Unknown Man E (the "screaming mummy," also found in the Deir el-Bahari cache) was a son of Ramses III, and could be Prince Pentawer.
+The king was originally buried in KV 11, the abandoned tomb of his father Setnakht; his mummy was restored by the later priests and eventually moved to the Deir el-Bahari cache.
+"\n"
+    </string>
+
+    <string name="SetiII">
+        Seti II (Userkheperure)
+        "\n"
+        (Son of Merenptah and Isetnofret II New Kingdom, 19th Dynasty)
+        "\n"
+The fifth pharaoh of the 19th Dynasty, Seti II, ruled for almost six years.
+        "\n"
+        During the early years of his reign his control of Upper Egypt was challenged by Amenmesse, who may have been another of Merenptah"s sons.
+        "\n"
+The political situation during this time is unclear, but the two rivals may have shared power for several years.
+        "\n"
+        Eventually, Seti Il emerged triumphant and ended his rule as sole pharaoh.
+        "\n"
+        Although his reign was short and troubled, Seti II left behind several important monuments, including a temple to the goddess Hathor in the Levant, as well as a station for the barque of Amun and several chapels dedicated to the Theban triad at Karnak.
+        "\n"
+        Several important documents have also survived from this reign, including a story known as "The Tale of the Two Brothers,and documents relating to the trial of a royal workman named Paneb.
+        "\n"
+ Seti II began a tomb for himself in the Valley of the Kings (KV 15), but this was left unfinished at the time of his death.
+        "\n"
+His body was moved several times before it reached its final resting place in the tomb of Amenhotep II.
+        "\n"
+</string>
+
+    <string name="RamsesIV">
+        Ramses IV Heqamaatre
+        "\n"
+        (Son of Ramses III and Iset Ta-Hemdjert New Kingdom, 20th Dynasty)
+        "\n"
+Although his father had been murdered by conspirators trying to take over the throne for the son of a minor queen, the legitimate crown prince, Ramses IV, succeeded in keeping the crown.
+        "\n"
+The new monarch, who was probably around forty when he became king, began his reign by punishing those who had orchestrated his father"s assassination.
+During his short reign of six to seven years, he did much to honor his father's memory and continue his policies.
+        "\n"
+One major document from his reign is the Great Harris Papyrus, which mentions his ascension and some of his achievements as king but largely focuses on the reign of Ramses III.
+        "\n"
+Under Ramses IV, the work gangs in the royal artisans' village at Deir el-Medina were doubled, and several inscriptions commemorate activities prompted by his ambitious building projects.
+        "\n"
+One major expedition to the Wadi Hammamat to quarry stone involved over 8,000 people, including 900 who died during the trip.
+        "\n"
+The king also sent mining expeditions to the Sinai for turquoise, added to the sun temple at Heliopolis, expanded the Temple of Khonsu at Karnak built by his father, and commissioned a large mortuary temple on the west bank at Thebes.
+        "\n"
+Ramses was buried originally in KV 2 in the Valley of the Kings before being moved by the 21 st Dynasty priests to KV 14 (the tomb of Tawosret and Setnakht). Eventually, he was moved to the cache in the tomb of Amenhotep II.
+"\n"
+    </string>
+
+    <string name="AmenhotepII">
+        Amenhotep II (Aakheperure)
+        "\n"
+        (Son of Thutmose III and possibly Meritr-Hatshepsut New Kingdom 18th Dynasty(ca. 1550-1295 BC))
+        "\n"
+Amenhotep II probably ascended the throne at about the age of 18, perhaps as co-regent with Thutmose III, and ruled for at least 26 years.
+        "\n"
+The tallest of his bloodline, this king boasted of his athletic prowess, often representing himself performing feats of strength and skill.
+        "\n"
+Remembered as a great sportsman, he had a reputation as an excellent charioteer and displayed considerable skill with the bow and arrow.
+        "\n"
+An important stela from his reign was found in his temple just northeast of the Great Sphinx at Giza.
+        "\n"
+        In it, he tells of his fondness for horses and narrates a story in which he was warned by his courtiers, as a young prince, that it was dangerous for him to ride large animals.
+        "\n"
+But his father the king, who was happy with his son"'"s bravery, presented him with a gift of horses and made him responsible for the stables.
+"\n"
+He maintained the borders of the empire solidified by his father and fought campaigns in the Levant and in Nubia, securing wealth and power for Egypt.
+        "\n"
+ A prolific builder, he expanded the Karnak complex dedicated to the great state god Amun, and commissioned the enlarging of several smaller temples.
+        "\n"
+ He was married to his sister Tiaa A, who became the mother of future ruler Thutmose IV, and sired other children as well.
+        "\n"
+The king"'"s mummy, which reveals that he died at the age of about 45, was found inside the quartzite sarcophagus in his tomb in the Valley of the Kings, rewrapped and put inside a replacement coffin of cartonnage by the 21st Dynasty priests.
+"\n"
+    </string>
+    <string name="ThutmoseII">
+        Thutmose II (Aakheperenre) (Son of Thutmose I and Mutnefret New Kingdom, 18th Dynasty)
+        "\n"
+Little is known about the rule of Thutmose II due to his relatively short reign.
+        "\n"
+Son of Thutmose I and a minor wife, his reign was secured through his marriage to his half-sister, Hatshepsut, daughter of Thutmose I"'"s principal queen, Ahmose.
+        "\n"
+Fourth king of the 18th Dynasty, he probably ruled for less than five years, although this is still a matter of debate.
+        "\n"
+With Hatshepsut he sired two daughters, Neferure and Neferubity; a secondary wife, Iset, was the mother of his only known son, Thutmose III, who succeeded him on the throne.
+        "\n"
+The historical record credits Thutmose II with putting down several uprisings in Nubia and vanquishing a tribe called the Shasu in Sinai, and he may have carried out a military campaign in Syria.
+        "\n"
+He left behind remains of modest building programs in Elephantine, as well as in Nubia, at Semna and Kumma.
+        "\n"
+In Karnak, he built a festival court in front of the Fourth Pylon and side entrances into it one of which was a small pylon.
+        "\n"
+The king died at approximately the age of 30.
+        "\n"
+His original tomb in the Valley has not been definitely identified, although many believe it was KV 42.
+        "\n"
+        However, this was most likely disturbed by grave robbers looking for treasure, as his mummy was moved to the Deir el-Bahari cache.
+        "\n"
+A docket written in hieratic on the outer shroud of the mummy records the restoration of his burial in Year 6 of Smendes (the northern king of the 21st Dynasty) while Pinudjem I controlled the Theban Region; his final reburial may have taken place later than this.
+ "\n"
+    </string>
+    <string name="Hatshepsut">
+        Hatshepsut (Daughter of Thutmose I and Ahmose nefertari New Kingdom, 18th Dynasty)
+        "\n"
+The "Foremost of Noble Ladies," Hatshepsut"s achievements as a powerful queen and then a ruling pharaoh have made her one of the most famous figures in ancient Egypt history.
+        "\n"
+ She was the daughter of Thutmose I and his principal queen Ahmose, who may have been part of the Ahmosid dynasty that founded the New Kingdom.
+        "\n"
+As a young girl, she was married to her half-brother, Thutmose II, who came to the throne after the death of their father, Thutmose I. When Thutmose II died, he left behind daughters and a son by a minor wife named Iset, Thutmose III, who was too young to rule on his own.
+        "\n"
+Hatshepsut became Egypt's regent, monarch in all but name. For several years, she ruled the country on behalf of her stepson.
+        "\n"
+In ancient Egypt, a woman could not become ruler, as the role of pharaoh was seen as exclusively masculine.
+        "\n"
+ However, the king could not rule without a wife by his side to assume the role of the Great Queen, symbolizing the balance of male and female and underscoring the dual nature of the created cosmos. Hatshepsut, as the daughter of a pharaoh and his Great Royal Wife, could claim the purest of royal bloodlines, and soon declared herself pharaoh, despite her gender.
+        "\n"
+In her memorial temple at Deir el-Bahari, she devoted an entire wall of one portico to the mystical story of her divine birth, showing the great god Amun-Re visiting her mother, Ahmose, in the night.
+        "\n"
+This was meant to express her legitimacy, and prove that her rule over Egypt was pre-ordained.
+        "\n"
+Hatshepsut is remembered as a prolific builder who commissioned countless construction projects.
+        "\n"
+Her most famous are the Red Chapel in Karnak, her work in the restoration of the Mut Precinct at Karnak, the temple of Pakhet at Beni Hasan, and the obelisks she had quarried at Aswan for the glory of Amun-Re.
+She also re-established trade networks that had been disrupted during the turmoil and foreign occupation of the Second Intermediate Period.
+        "\n"
+ Another area of her mortuary temple was dedicated to depictions of an expedition she sponsored to the Land of Punt (which lies between modern Ethiopia and Sudan), to obtain ivory, resins, ebony, spices, and other valuable goods.
+        "\n"
+After ruling for about 22 years, she disappeared from the historical record, and Thutmose III, junior king during her tenure, became sole pharaoh.
+        "\n"
+ It was once thought that she might have been murdered on the orders of this king, but it is more likely that she simply died from natural causes.
+        "\n"
+ Her original tomb is believed to be KV 20, which lies directly over the cliffs from her memorial temple, and it is likely that she was originally buried here, along with her father.
+"\n"
+    </string>
+
+    <string name="SetiI">
+        Seti I Menmaatre
+        "\n"
+        (Son of Ramses I and Sitre New Kingdom, 19th Dynasty)
+        "\n"
+Son of Ramses I, the founder of the 19th Dynasty, Seti I ruled Egypt for at least 12 years.
+        "\n"
+During the previous reigns, he had been, like his father, an army officer. After he became king,
+        "\n"
+        he commanded various campaigns into Libya and the Levant to reimpose Egyptian authority abroad.
+        "\n"
+        He fought the Hittites, the new superpower of the Near East.
+        "\n"
+        These military activities and victories were carefully recorded at Karnak, in the temple of Amun.
+        "\n"
+Seti I ordered the construction of several major building projects at Karnak and Abydos,
+        "\n"
+        and constructed a mortuary temple on the west bank at Thebes.
+        "\n"
+        He ordered the carving of battle scenes on a large scale in the precinct of Amun in Karnak to publicly proclaim his might.
+        "\n"
+Possibly the oldest geological map in the world, now in Turin, is preserved on a papyrus from his reign.
+        "\n"
+This depicts the gold-mining town of Bir Umm Fawakhir and the Wadi Hammamat.
+        "\n"
+His principal queen, Tuya, was the daughter of another military officer, a charioteer named Raia.
+        "\n"
+Together, they had at least three children, one of whom became the next king, Ramses II (the Great).
+        "\n"
+The tomb of Seti I in the Valley of the Kings, KV 17, is one of the best-preserved and most beautiful of the royal sepulchers.
+        "\n"
+The wall decoration retains its vivid colors, including a deep blue to imitate the night sky that was used on some of the ceilings.
+        "\n"
+At the back of the burial chamber is an ancient tunnel that runs for 173.5 m into the bedrock. This is undecorated.
+        "\n"
+        When the king died, the tunnel was abandoned, and it hides no secrets.
+        "\n"
+    </string>
+
+    <string name="RamsesII">
+        Ramses II (Usermaatre Setepenre)
+        "\n"
+        (Son of Seti I and Tuya The New Kingdom, 19th Dynasty)
+        "\n"
+Arguably the most famous of the New Kingdom pharaohs,
+        "\n"
+        Ramses II succeeded his father Seti I, and became king at the age of between 25 and 30.
+        "\n"
+He enjoyed a long reign, ruling for 67 years, and left a well-recorded legacy.
+        "\n"
+He had many queens and sired around 100 children.
+        "\n"
+        His Great Royal Wife was Nefertari, for whom he built a temple near his own in Nubia, at Abu Simbel.
+        "\n"
+        Her tomb in the Valley of the Queens is perhaps the most beautiful sepulcher in the Theban necropolis.
+        "\n"
+        Ramses II also married at least one of his daughters, Meritamun.
+        "\n"
+Ramses II is remembered as a great warrior and recorded his Year 5 Battle of Kadesh,
+        "\n"
+        in which he fought against the Hittites.
+        "\n"
+        Although the actual outcome of the battle was a draw,
+        the king was excessively proud of his personal bravery and military prowess,
+        "\n"
+
+        bragging that he had singlehandedly saved Egypt from what might have been a terrible defeat.
+        "\n"
+        He continued to skirmish with the Hittites for many years,
+        but eventually signed a peace treaty the first known in history-with their king,
+        and married his daughter to seal the newly-founded alliance.
+        "\n"
+        The tomb of the ambassador who delivered the peace treaty has been found at Saqqara.
+        "\n"
+This pharaoh built temples almost everywhere in Egypt,as well as in Nubia.
+        "\n"
+        The most famous of his projects are Abu Simbel,the Ramesseum (dedicated to his mortuary cult),and his additions to Luxor Temple.
+        "\n"
+        He also founded a new capital, Pi-Ramses, in the Delta.
+        "\n"
+ For his own glory and the glory of Egypt,he erected many statues of himself,a great number of which he usurped from earlier kings.
+        "\n"
+Ramses II was originally buried in KV 7,but his body was moved to the Deir el-Bahari cache to protect it from looting.
+        "\n"
+In the late 20th century,the mummy was sent to the Musée de l"Homme in Paris for study and restoration,as it was in poor condition.
+        "\n"
+In his official travel document, his occupation was listed as "King (deceased)".
+        "\n"
+</string>
+
+    <string name="RamsesIX">
+        Ramses IX(Neferkare Setepenre)
+        "\n"
+        (Son of Montuhirkopshef Takhat II New Kingdom, 20th Dynasty)
+        "\n"
+Eighth king of the 20th Dynasty, Ramses IX was the grandson of Ramses III and the nephew of Ramses VIII.
+        "\n"
+        It is estimated that he ruled for about 18 years, instilling a new sense of stability,
+        "\n"
+        and his titles have been found outside of Egypt proper, in Nubia and Dakhla Oasis.
+        "\n"
+His principal cult contributions were to the sun temple in Heliopolis;
+        "\n"
+        he also decorated the north wall of the Seventh Pylon of the complex of Amun-Re at Karnak.
+        "\n"
+        Most of his activities focused on Lower Egypt, where he ruled from the Ramesside capital in the Delta,
+        "\n"
+        allowing the high priests of Amun in Upper Egypt to gain power.
+        "\n"
+It is from Ramses IX"s reign that records are preserved of a great scandal concerning violations of the royal tombs.
+        "\n"
+        These incidents took place in his Years 16 to 17,
+        "\n"
+        and are captured in various papyri such as the Abbott Papyrus, Papyrus BM 10054, and the Leopold Il-Amherst Papyrus.
+        "\n"
+        The robberies led to the decision several generations later to dismantle the burials of the New Kingdom monarchs and their families,
+        "\n"
+        restore the mummies, and hide them in a series of caches.
+        "\n"
+        The original burial place of Ramses IX, a beautifully painted tomb that still retains its colors today,
+        "\n"
+        was KV 6; his mummy was moved several times before it was hidden in the Deir el-Bahari cache.
+        "\n"
+</string>
+
+    <string name="Siptah">
+       Siptah (Akhenre) (Parentage uncertain New Kingdom,19th Dynasty)"Siptah came to the throne as a boy,
+        "\n"
+        placed there by a powerful official named Bay.
+        "\n"
+        Opinion on his parentage is divided, with Seti II,
+        "\n"
+        Amenmesse, and even Merenptah suggested as possible fathers.
+        "\n"
+        Since he was too young to rule alone, his stepmother Twosret , wife of Seti II, took on the role of regent.
+        "\n"
+       The highest date attested for his reign is Year 6, and his mummy is that of a young man of only about sixteen.
+        "\n"
+        He may have suffered from polio.
+        "\n"
+       His cartouches in his tomb in the Valley of the Kings were defaced at some point, and then later restored.
+        "\n"
+        His funerary temple has not been identified, and likely was never completed due to his short reign.
+        "\n"
+        After his death his regent, Queen Tawosret, became the sole ruler of Egypt.
+    "\n"
+      </string>
+
+    <string name="RamsesV">
+        Ramses V Amenhirkhopshef I Usermaatre (Son of Ramses IV and Duatentopet New Kingdom, 20th Dynasty)
+        "\n"
+                Although his father had been murdered by conspirators trying to take over the throne for the son of a minor queen,
+        "\n"
+        the legitimate crown prince, Ramses IV, succeeded in keeping the crown.
+        "\n"
+        The new monarch, who was probably around forty when he became king,
+        "\n"
+        began his reign by punishing those who had orchestrated his father"s assassination.
+        "\n"
+        During his short reign of six to seven years, he did much to honor his father 's memory and continue his policies.
+        "\n"
+        One major document from his reign is the Great Harris Papyrus, which mentions his ascension and some of his achievements as king but largely focuses on the reign of Ramses III.
+        "\n"
+                Under Ramses IV, the work gangs in the royal artisans' village at Deir el-Medina were doubled, and several inscriptions commemorate activities prompted by his ambitious building projects.
+        "\n"
+        One major expedition to the Wadi Hammamat to quarry stone involved over 8,000 people, including 900 who died during the trip.
+        "\n"
+                The king also sent mining expeditions to the Sinai for turquoise, added to the sun temple at Heliopolis, expanded the Temple of Khonsu at Karnak built by his father, and commissioned a large mortuary temple on the west bank at Thebes.
+        "\n"
+                Ramses was buried originally in KV 2 in the Valley of the Kings before being moved by the 21st Dynasty priests to KV 14 (the tomb of Tawosret and Setnakht). Eventually, he was moved to the cache in the tomb of Amenhotep II.
+        "\n"
+    </string>
+    <string name="RamsesVI">
+        Ramses VI (Nebmaatre Meriamum)
+        "\n"
+        (Son of Ramses III and Iset Ta-Hemdjert New Kingdom, 20th Dynasty)
+        "\n"
+                One of the sons of Ramses III, Ramses VI succeeded his nephew, Ramses V, and ruled for about eight years.
+        "\n"
+        As a royal son, his figure was included in the "Procession of Princes in his father"s mortuary temple at Medinet Habu;
+        "\n"
+        after he ascended the throne, he put his names in cartouches and added a kingly uraeus to his brow.
+        "\n"
+                There is evidence of internal unrest during his early years, but whether this was a family struggle for the throne or the result of attacks by foreigners or bandits is unclear.
+        "\n"
+        Royal power over Upper Egypt continued to decline: Although Ramses VI"s daughter Iset held the key position of God"s Wife of Amun, the family of the high priest of Amun, Ramsesnakht, clearly held increasing sway in the Theban region.
+        "\n"
+        The external situation was problematic as well: during the reign of this king, Egypt lost control over its last territories in Syria-Palestine.
+        "\n"
+        Ramses VI was the last Egyptian king to record his name in the Sinai mines.
+        "\n"
+        Despite the difficulties of his time, Rameses VI left his name and mark at many sites in Egypt as well as in Nubia, which Egypt still controlled.
+        "\n"
+        He usurped many of the statues of his predecessors and left his cartouches in the Karnak complex and at other temples.
+        "\n"
+                At Deir el-Medina, he commissioned 60 workmen to construct his tomb in the Valley of the Kings (KV 9), which he took over from Ramses V.
+        "\n"
+                He was moved from his original burial there, possibly with a stop in another royal cache, to KV 35 early in the 21 st Dynasty.
+        "\n"
+        </string>
+    <string name="ThutmoseIV">
+    Thutmose IV (Menkheperure) (Son of Amenhotep II and Tiaa New Kingdom, 18th Dynasty)
+        "\n"
+                The Dream Stela, erected by Thutmose IV between the paws of the Great Sphinx at Giza, tells of how, as a young prince, he fell asleep in the shade of this colossal figure while hunting in the desert nearby.
+        "\n"
+                The Sphinx appeared to him in his dreams and instructed him to clear away the sand that covered its body; in return, he would be made the next pharaoh.
+        "\n"
+                This suggests that he might not have been the legitimate crown prince, but that he usurped the throne in some way.
+        "\n"
+                Thutmose IV carried out at least one campaign to Nubia, which may have been more of a police action than anything else.
+        "\n"
+                He is known to have established peaceful relations with the Mitanni, Egypt"s greatest rivals to the northeast, marrying a Mitanni princess.
+        "\n"
+                He is credited with building a double portico in the court fronting the Fourth Pylon at Karnak; also at Karnak, he built a small chapel of Egyptian alabaster.
+        "\n"
+                He was originally buried in KV 43, but was moved to the tomb of Amenhotep II sometime after Year 13 of Smendes.
+        "\n"
+</string>
+    <string name="MummyInformation">Mummy Information</string>
+    <string name="PlayingAudio">Playing Audio</string>
+    <string name="listen">Listen</string>
+    <string name="details">Exhibit Information</string>
+    <string name="Exhibit_information">Exhibit Information</string>
+    <string name="title_activity_exhibits_of_era">Exhibits_of_era</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="pay">Pay For Book Ticket</string>
+    <string name="buy">Buy Now</string>
+    <string name="qr">QR_Code</string>
+    <string name="hint">Take your QR_Code Screen</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">All Eras</string>
+    <string name="menu_gallery">Exhibits</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="save">Save</string>
+    <string name="generate">Generate</string>
+    <string name="enter_text">Enter Text</string>
+    <string name="value_required">Value Required</string>
+    <string name="tab_text_4">Era</string>
+    <string name="tab_text_5">Exhibits</string>
+    <string name="title_activity_exhibits_of_era2">ExhibitsOfEra2Activity</string>
+    <string name="exhibit_1">Hapi the Scribe :
+                 Scribes were amongst the highest-ranking people in ancient Egypt and held important positions
+                 in the bureaucracy and temples. Hapi was the administrative supervisor of the temple of Amun-Ra at
+                 Karnak. Here he is shown holding a papyrus that reflects his job as one of the scribes of the temple.
+                 New Kingdom, 19th Dynasty (1295 - 1186 BC) Karnak - Quartzite .
+</string>
+    <string name="ForVisitingTime"> Saturday : Tuesday From 09:00 Am To 05:00  Pm "\n"
+        Friday  09:00 Am To 05:00 Pm , 06:00 Pm To 09:00 Pm "</string>
+    <string name="NMCE_Email">info@nmec.gov.eg</string>
+    <string name="exhibit_2">The Priest Psamtik Seneb : The Naophorous or Naos (shrine) carrier statue Is a style of statues
+                        that become popular in the Late Period, Such Images expressed the piety of Its owner and his closness
+                        to the gods.This statue depicts the priest Psamtlk-Seneb kneeling while carrying the naos of the God
+                       Atum,the procreator of all the gods and lords of Helioplis.</string>
+
+    <string name="exhibit_3">Pen-Fiery the Surveyor :
+                  Pen-Hery was responsibte for measuring the agricultural areas and determining the state properties,
+                  temples and indivtduals, he appears holding a twisted rope topped by the head of the ram of the god Amun,
+                  ropes were among one of the main tools for measuring and determining the borders and large areas of the agricultural lands.
+                  New kingdom, 19th Dynasty - Karnak - Granite.</string>
+
+    <string name="exhibit_4">King Thutmose III : Thutmose III was one of the greatest warrior kings
+                  in ancient Egypt and leader of a unique military genius in planning battles and war operations that
+                  made  Egypt great power in the ancient world. He succeeded in establishing a great empire that extended
+                  from the Euphrates in the north and the 5 Cataract to the south.Moreover, he commissioned many architectural
+                  projects and erecated temples in the Delta, Memphis ,Karnak ,and,Aswan.
+                  New Kingdom - 18th Dynasty (1550 - 1295 BC) Karnak - Black granite.</string>
+
+    <string name="exhibit_5">king Akhenaten: When Amenhotep IV becomes a pharaoh, he summoned for a new doctrine in which
+                the attributes of all deities were combined in the same god Aten and called for peace and religious
+                tolerance, his doctrine had a great impact on the intellectual religious and artistic life in ancient Egypt.</string>
+
+    <string name="exhibit_6">Khonsu: Khonsu was the god of the moon and a member of the Theban Triad during the New Kingdom,
+                 he was always depicted in the form of a young man carrying a moon disk over his head and a characterisac
+                 braid of youth. He was a symbol of the youth, vitality and vigor of the reigning king.
+                 The features of the statue indicate that it dates back to the reign of Tutankhamen, as it bears the personal features of the King.
+                 New Kingdom, 18 Dynasty (Ss0 -1295 BC)/Kanak-Temple of Khonsu - Granite.</string>
+
+    <string name="exhibit_7">God Nilus : The god Nilus was a symbol of the Nile river,
+                 this statue is one of the rare pieces that depicts him in the form of a man leaning on a hippo over a rock
+                 from which the water flows, he is surrounded by a group of children symbolizing the high level of the flood .
+                 Roman Period - Qena - Marble.</string>
+
+
+    <string name="exhibit_8"></string>
+    <string name="exhibit_9">King Fouad I ( 1868-1936 ):
+                 The son of Khedive Ismail and the grandson of Muhammad Ali Pasha, he was educated at the private school of
+                 Abdin Palace and the Turin Military School . He held the position of the Military Attaché in Vienna,
+                 then the chief aide - de - camp of Khedive Abbas Helmy II,
+                 and then took over the rule of Egypt in 1917 after the death of Sultan Hussein Kamel.
+                 After the 1919 revolution and the declaration of Egypt as an independent kingdom,
+                 he changed his title in 1922 to The King of Egypt, Nubia, Kordofan and Darfur.
+                 King Fouad was interested in cultural life as he founded the Egyptian University in 1908,
+                 and the Royal Society for Economics, Statistics and Legislation . He also ordered the construction of the
+                 parliament building . During his reign, the country"s first constitution was established in 1922,
+                 and the first popular ministry was formed, headed by Saad Pasha Zaghloul,
+                 and the treaty of 1936 was signed between Egypt and England, which recognizes Egypt as an independent country .</string>
+
+    <string name="exhibit_10">The vizier Paser:  Paser lived during the reign of Seti I,
+                 where he held the title of the sole companion of the king and held many positions as the royal palace advisor,
+                 the governor of the city Thebes, and who receives the tribute of the foreign lands for the king .
+                 Then, during the reign of Ramses II, he became a judge, a seal bearer and deputy of the king in Nubia where
+                 he supervised the construction works of the temple of Abu Simbel . He also assumed the position of high priest and
+                 overseer of the Karnak temple until his death in the 25th year of the reign of Ramses II . Paser appears
+                 in this statue carrying an altar topped by the head of a ram , the symbol of Amun Ra Lord of Karnak .
+                 New Kingdom - 19 th Dynasty - reign of Ramesses ( 1279-12180 ) karnak - Black Granite.</string>
+
+    <string name="exhibit_11">Sphinxof_theking_Amenemhat_III:  The statues of the Sphinx represent the living king sitting on the
+                 throne as the image of the god  "Shu" , which was always depicted in the form of a crouching lion controlling
+                 the borders of the universe, and this statue was one of the statues of King Amenemhat III that surrounded
+                 the procession road in front of his great temple in Hawara. The Middle Kingdom - The Divine Dynasty (1795-1795 BC).</string>
+
+    <string name="exhibit_12">Amon-Ra : the king of the gods. Amun-Ra was the most important and most famous deity in ancient Egypt,
+                 if he was the main deity of the state in the modern and the middle ages, who bore the title of King of the Gods,
+                 and we worshiped Karnak, the main center of his worship in ancient Egypt.</string>
+
+    <string name="exhibit_13">Senenmut : Senenmut served as a close advisor and architect for the ruler, Hatshepsut.
+                He was trusted enough to be the tutor of Hatshepsut"s daughter, Neferura, who is shown with Senenmut in this statue.
+                Senenmut designed and oversaw the construction of Hatshepsut"s memorial temple at Deir el- Bahari as well as other
+                buildings in Karnak temple.New Kingdom - 18th Dynsty (1550 - 1295 BC) Karnak temple - Granite.</string>
+
+    <string name="exhibit_14">Pen Menkh_The_GovernerOf Dendara : he Greco-Roman era, the ruler of the city of Dendera during
+                the reign of Emperor Augustus, called Ibn Mankh, and the statue shows a mixture of the influence of ancient Egyptian
+                art and Hellenistic art.</string>
+
+    <string name="exhibit_15">Captive"s statuettes: The figures of captives were made of different materials to be used in the ritual of
+                 Protecting the Land and the King inside the temple. Thus, spells were recited on them and then tied with ropes
+                 and placed in the fire to destroy the enemies of Egypt. Moreover, they were buried in the corners of the
+                 temples or forts to eliminate their evil as welt.
+                 New Kingdom - 19th Dynasty (1295 -1186 BC) Tura el-Asmant - Mud.</string>
+
+    <string name="exhibit_16">King Fouad I ( 1868-1936 ): The son of Khedive Ismail and the grandson of Muhammad Ali Pasha ,
+                 he was educated at the private school of Abdin Palace and the Turin Military School .
+                 He held the position of the Military Attache in Vienna,
+                 then the chief aide - de - camp of Khedive Abbas Helmy II ,
+                 and then took over the rule of Egypt in 1917 after the death of Sultan Hussein Kamel .
+                 After the 1919 revolution and the declaration of Egypt as an independent kingdom ,
+                 he changed his title in 1922 to The King of Egypt , Nubia , Kordofan and Darfur .
+                 King Fouad was interested in cultural life as he founded the Egyptian University in 1908 ,
+                 and the Royal Society for Economics , Statistics and Legislation .
+                 He also ordered the construction of the parliament building . During his reign ,
+                 the country"s first constitution was established in 1922 , and the first popular ministry was formed ,
+                 headed by Saad Pasha Zaghloul , and the treaty of 1936 was signed between Egypt and England ,
+                 which recognizes Egypt as an independent country .</string>
+
+    <string name="exhibit_17">Statue of the Sphinx: Statue of Sphinx, which has no inscriptions indicating  its
+                        archaeological history clearly. This statue is a continuation of his though of the Pharaonic Sphinxes,
+                        as it was common in the Ptolemaic Period to place small statues of the Sphinx in front of the temples to be
+                        used for protection and guarding. Kom Ombo, Sandstone, Ptolemaic period.</string>
+
+    <string name="exhibit_18">Chair from the tomb of Queen Hetepheres: old kingdom, dynasty 4 Reign of king khufu.
+                        Ca. 2551-2528 BC From the Giza plateau. Queen Hetephere"s tomb contained a magnificient collection of
+                        wooden furniture including this fine example of a guilded chair. The chair is decorated with delicate gold leaf,
+                        giving it an eternal lustre.  The gilded frame surronds a plain, solid wood panel.</string>
+
+    <string name="exhibit_19">A Queen in the form of the Sphinx: This statue is considered one of the oldest statues made in the
+                 form of the Sphinx for one of the ancient Egyptian queens, it is attributed to
+                 Queen Heterepheres II the daughter of the  King Khufu, this rare form statue of queens may indicate
+                 her assumption of the throne, what indeed expressed the Egyptians appreciirtion for women, and their reverence
+                 for her as a mother, a sister, a wife, a ruler and a goddess as well.</string>
+
+    <string name="exhibit_20">The Kiswa Covering of the Holy Kaaba: Manufacture of the Kiswa covering of the Holy Kaaba is considered
+                 one of the greatest and honorable deeds in Arab and Islamic culture. The tradition of covering the Kaaba goes back to
+                 the King Tubba As"ad al-Kamel of the Himyarite Kingdom (387-430 AD) as the Arab traditions attributed to him the first
+                 covering of the whale Kaaba before Islam, and this tradition continued to the present day. Noteworthy, the drape of Kaaba
+                 varied between cotton, velour, linen, and silk. Moreover, its color switched between white, red, green, and yellow until
+                 the Abbasid Caliph al-Ma"mun (813 - 833 AD) established the current practice of dressing the Kaaba once a year with
+                 black silk. Since the reign of the Caliph Abu Bakr al-Siddiq, making the Kiswa varied between Egypt, Damascus, and Yemen,
+                 but during the reign of Al-Malik as-Salih Najm al-Din Ayyub (1240-1249 AD), Egypt retained the honor of making
+                 the Kiswa and sending it annually to Mecca. Therefore, many textile workshops were established in Tennis, Tuna, and Shata
+                 for its manufacture. Noteworthy, the last Kiswa workshop was the Dar al-Kiswa al-Musharrafah established by Muhammad Ali
+                 in al-Khurunfash district in (1818 AD) that included hundreds of the most skilled workers of textile and embroidery.</string>
+
+    <string name="exhibit_21">Muhammad Ali Pasha: (1769 -1849) He was born in "Kavala" in Macedonia,
+                 and came to Egypt with an Ottoman military force to fight the French expedetion Later in 1805 the Egyptians those
+                 him as viceroy of Egypt and subsequently, he eliminated the dangers of the Mamluks and the English ambitions in Egypt.
+                 Then he seized the Sudan, the Levant, the Arabian Peninsula, and threatened the Ottoman Empire
+                 with his troops until the Treaty of London in 1840 granted him the right to become ruler of Egypt and the
+                 rule of Egypt is hereditary to his family Muhammad All is considered the founder of modern Egypt,
+                 where he established the first Egyptian modern army and naval fleet.
+                 He developed military schools and industries, civil industries such as textiles
+                 and sugar He also sent scientific missions abroad and set up high schools.
+                 Moreover, He built the Benevolent Bridges, dams, and canals to develop irrigation system and expand the .
+                 agricultural area, introduced many new crops, and built modern roads and urban expansion throughout Egypt.</string>
+
+    <string name="exhibit_22">The Femal Peasent: This statue is considered one of the prominent works of the artist Mahmoud Mokhtar,
+                 in which he focused the position of the female peasant and her role as one of
+                 the main  roles of women in Egyptian society, in the past and present.</string>
+
+    <string name="exhibit_23">A Silo: Silos were used to store grains, mainly wheat and barley.
+                 The grains were poured in bon the top and taken out from lower down.
+                 Both openings were sealed with wood and or day.
+                 This silo is one of the earliest surviving portable examples.</string>
+
+    <string name="exhibit_24">A Silo: Silos were used to store grains, mainly wheat and barley.
+                 The grains were poured in bon the top and taken out from lower down.
+                 Both openings were sealed with wood and or day.
+                 This silo is one of the earliest surviving portable examples.</string>
+
+    <string name="exhibit_25">Nazlet Khater Skeleton :  This skeleton was found buried near Nazlet Khater - Sohag Governorate .
+                 It is for a young man who lived 35 thousand years ago , and it appears from his skeleton that he had
+                 enjoyed a distinguished height and a strong body , one of his stone tools was discovered beside him .
+                 Upper Paleolithic - Nazlet Khater.</string>
+
+    <string name="exhibit_26">Funerary Masks: These two painted cartonnage masks were found in Sennedjem"s tomb. One of them belongs
+                 to his wife, Iyneferti, and the other probably belongs to one of his daughters in law. These masks were placed
+                 over the mummified and wrapped face in order to identify them and to protect the body within.
+                 New Kingdom- 19th Dynasty (1295 - 1106 BC) Deir el-Madina, Luxor.</string>
+
+    <string name="exhibit_27">Purification with water: Upon his arrival from the other world,
+                 the sun god purifies himself in eastern horizon before his shining in heaven, where the four gods Horus,
+                 the lord of the north Seth, the lord of the south Dewen-anwy, the lord of the east
+                 and Thoth the lord of the west pour the water of life and power over him from the four corners of the universe.
+                 This rare statue depicts king Amenhotep II assimilated with the sun god in his shining in the moment
+                 of his purification in the horizon.</string>
+
+    <string name="exhibit_28">The birth of isis: The unique plaque was found near the temple of dendara, it probably depicts
+                 the goddess Nut giving birth to the goddess isis on the birth chair, while the goddess of birth with the head
+                 of the cow supervises the delivering process.</string>
+
+</resources>
